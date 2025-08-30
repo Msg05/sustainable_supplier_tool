@@ -311,8 +311,5 @@ def main():
     elif current_supplier == alternative_supplier:
         st.warning("Please select different suppliers for comparison")
 
-# ✅ Correct entry point
-if __name__ == "__main__":
+if _name_ == "_main_":
     main()
-
-
