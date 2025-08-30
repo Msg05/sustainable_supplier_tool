@@ -1,4 +1,3 @@
-
 import streamlit as st
 import pandas as pd
 import plotly.express as px
@@ -312,5 +311,8 @@ def main():
     elif current_supplier == alternative_supplier:
         st.warning("Please select different suppliers for comparison")
 
+# ✅ Correct entry point
 if __name__ == "__main__":
     main()
+
+
